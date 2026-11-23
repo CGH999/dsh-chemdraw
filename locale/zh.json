@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ChemDraw 桥接",
+    "description": "读写 ChemDraw 的 .cdx 文件：结构、立体几何、文字标注、反应箭头，以及带校验的写回。"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "dsh-chemdraw",
+  "version": "0.1.0",
+  "description": "Read and write ChemDraw .cdx files from DSH: structures, stereo geometry, captions, reaction arrows and verified, dry-run-first writes.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "bridge",
+    "bin/ChemBridge.exe"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "chemdraw",
+    "chemistry",
+    "cdx",
+    "cdxml",
+    "structure"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CGH999/dsh-chemdraw.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

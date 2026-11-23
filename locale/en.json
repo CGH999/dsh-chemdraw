@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "ChemDraw bridge",
+    "description": "Read and edit ChemDraw .cdx files: structures, stereo geometry, captions, reaction arrows and verified writes."
+  }
+}

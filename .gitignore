@@ -1,0 +1,8 @@
+# 运行期缓存（CDXML / PNG / 缩略图），会随使用不断增长
+var/
+
+# 商业授权的 ChemScript 引擎，不随本仓库分发
+bin/CambridgeSoft.ChemScript.dll
+
+node_modules/
+*.bak

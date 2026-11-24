@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "ChemDraw bridge",
-    "description": "Read and edit ChemDraw .cdx files: structures, stereo geometry, captions, reaction arrows and verified writes."
+    "description": "Read and edit ChemDraw .cdx files: structures, stereo geometry, captions, reaction arrows and verified writes. Requires an installed, activated ChemDraw; before first use, copy CambridgeSoft.ChemScript.dll into the plugin's bin/ folder and set CHEMDRAW_HOME to the ChemDraw install directory."
   }
 }

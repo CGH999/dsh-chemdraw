@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "ChemDraw 桥接",
-    "description": "读写 ChemDraw 的 .cdx 文件：结构、立体几何、文字标注、反应箭头，以及带校验的写回。"
+    "description": "读写 ChemDraw 的 .cdx 文件：结构、立体几何、文字标注、反应箭头，以及带校验的写回。需要本机已安装并激活 ChemDraw；首次使用前把 CambridgeSoft.ChemScript.dll 复制到插件的 bin/ 目录，并设置环境变量 CHEMDRAW_HOME 指向 ChemDraw 安装目录。"
   }
 }
